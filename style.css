@@ -28,6 +28,13 @@ background-image: url(./img/puntitos.png);
     height: 60px;
 }
 
+@media (min-width: 769px) {
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+}
+
 .menu{
     width: 30px;
     height: 25px;
@@ -284,6 +291,7 @@ background-image: url(./img/puntitos.png);
 .send-button {
     height: 45px;
     border: none;
+    margin-bottom: 50px;
     background-color:#FFD953;
     font-family:'Roboto';
     font-size: 16px;
@@ -297,6 +305,72 @@ background-image: url(./img/puntitos.png);
     border-radius: 5px;
 }
 
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 115px 20px;
+    background-color:#DBDBDB;
+}
+
+@media (min-width: 769px) {
+    .page-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 75px 50px 100px 50px;
+    }
+}
+
+.container-logo-copy {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 85px;
+}
+
+@media (min-width: 769px) {
+    .container-logo-copy {
+        align-items: center;
+        margin-bottom: 0;
+    }
+}
+
+.footer-logo {
+    width: 55px;
+    height: 60px;
+}
+
+@media (min-width: 769px) {
+    .footer-logo {
+        width: 85px;
+        height: 90px;
+    }
+}
+
+.copyright {
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+.container-social-media {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;   
+}
+
+a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #2c2c2c;
+    margin-left: 10px;
+}
+
+.instagram,
+.linkedin,
+.github {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    font-size: 16px;
+}
 
 
 
